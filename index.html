@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Justine's Website</title>
+    <style>
+        @keyframes moveText {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(100px); /* Adjust the distance and direction as needed */
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .moving-text {
+            animation: moveText 3s linear infinite; /* Adjust duration and timing function as needed */
+        }
+        body {
+            background-image: url('file:///C:/Users/Jin/Desktop/HTML/img/CRUSH.jpg'); 
+            background-size: cover; 
+        }
+        h1 {
+            font-size: 100px;
+}
+        p {
+    font-size: 50px;
+}
+        .center-text {
+            text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="center-text">
+        <h1 class="moving-text">Welcome to Justine's Web!</h1>
+        <p>Want to know more about me? Click any of these links.</p>
+        <p><a href="gallery.html">Gallery</a></p>
+        <p><a href="profile.html">Profile</a></p>
+        <p>Made by Justine Cordova</p>
+    </div>
+</body>
+</html>
